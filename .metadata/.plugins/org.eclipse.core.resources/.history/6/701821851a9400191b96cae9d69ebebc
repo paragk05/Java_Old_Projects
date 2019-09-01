@@ -1,0 +1,30 @@
+
+public class Pattern2 {
+
+	public static void main(String[] args) 
+	{
+		int p=5;
+		for(int row=1;row<=5;row++)
+		{
+			for(int col=1;col<=5;col++)
+			{
+				if(col==p)
+				{
+					System.out.print("*");
+					
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+				p--;
+			}
+			
+			System.out.println();
+
+			
+		}
+
+	}
+
+}

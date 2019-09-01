@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Coll {
+
+	public static void main(String[] args) 
+	{
+		Collection val= new ArrayList();
+		val.add(5);
+		val.add(8);
+		val.add(12);
+		val.add(4);
+		val.add(9);
+		
+		System.out.println(val);
+
+	}
+
+}
